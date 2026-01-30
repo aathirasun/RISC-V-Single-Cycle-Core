@@ -29,3 +29,4 @@ module sign_extend(In, Imm_Ext,Imm_Src
     assign Imm_Ext= (Imm_Src==1'b1)?({{20{In[31]}},In[31:25],In[11:7]}):
                                         {{20{In[31]}},In[31:20]};
 endmodule
+
