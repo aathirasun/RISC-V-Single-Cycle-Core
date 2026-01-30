@@ -11,7 +11,8 @@ module instr_mem(
         MEM[3] = 32'h0062E233;
     end
 
-    assign RD= (rst==1'b0)?32'h00000000:MEM[A[31:2]];
+    assign RD=(rst==1'b0)?32'h00000000:MEM[A[31:2]];
    
     endmodule
     
+
