@@ -11,3 +11,4 @@ module P_C(PC,PC_NEXT,clk,rst);
             PC<=PC_NEXT;
     end
     endmodule
+
