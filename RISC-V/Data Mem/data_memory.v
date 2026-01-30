@@ -21,3 +21,4 @@
         DATA_MEM[5] =  32'h00000001;
     end
 endmodule
+
