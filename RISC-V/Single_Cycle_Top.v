@@ -79,3 +79,4 @@ module Single_Cycle_top(clk,rst);
                          .s(ResultSrc),
                          .c(Result));       
 endmodule
+
