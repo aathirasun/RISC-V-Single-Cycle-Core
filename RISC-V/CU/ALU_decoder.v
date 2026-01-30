@@ -14,4 +14,5 @@ module ALU_decoder(ALUOp, op5,funct3,funct7,ALUControl);
                        (ALUOp==2'b10 & funct3==3'b000 & concat ==2'b11)?3'b001:
                        (ALUOp==2'b10 & funct3==3'b000 & concat ==2'b00 || concat ==2'b01 || concat ==2'b10 )?3'b000:3'b000;                    
                     
+
 endmodule
